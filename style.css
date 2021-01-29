@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+html {
+  background-color: #ff82ba;
+  
+}
+
+body {
+  font-family: monospace;
+  margin: 2em;
+
+}
+
+h1 {
+  font-size: 50px;
+    display: flex;
+  justify-content: center;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+    display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+.pill {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+
+    .leftpill {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 0; 
+    position: relative;
+    left: 75px;
+    
+}
+    
+
+  .rightpill {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: 0;
+    position: relative;
+    left: -75px;
+    top: -100px; 
+    
+    
+  
+
+    
+  
+}
+
+img {
+  width:600px;
+  height: auto;
+}
